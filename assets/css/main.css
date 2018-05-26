@@ -1,5 +1,5 @@
-/*@import url(http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);*/
-/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i);*/
+@import url(http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i);
 
 @media print {
     *, *::before, *::after, *::first-letter, p::first-line, div::first-line, blockquote::first-line, li::first-line {
