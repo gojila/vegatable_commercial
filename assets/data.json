@@ -1,109 +1,287 @@
-[
-  {
-    "id": 1,
-    "name": "Spinach"
-  },
-  {
-    "id": 2,
-    "name": "Cabbage"
-  },
-  {
-    "id": 3,
-    "name": "Cauliflower"
-  },
-  {
-    "id": 4,
-    "name": "Fruits",
-    "products": [
-      {
-        "id": 1,
-        "name": "Curabitur auctor ut elit",
-        "price": 13.46,
-        "large_image": "assets/img/products/large/faded-short-sleeves-tshirt.jpg",
-        "medium_image": "",
-        "default_image": "assets/img/products/small/faded-short-sleeves-tshirt.jpg",
-        "description": "",
-        "product_detail": "",
-        "review": ""
-      },
-      {
-        "id": 2,
-        "name": "Mauris at quam ac turpis",
-        "price": 26.99,
-        "large_image": "assets/img/products/large/blouse.jpg",
-        "medium_image": "",
-        "default_image": "assets/img/products/small/blouse.jpg",
-        "description": "",
-        "product_detail": "",
-        "review": ""
-      },
-      {
-        "id": 3,
-        "name": "Sed lobortis tortor vitae",
-        "price": 21.19,
-        "large_image": "assets/img/products/large/printed-dress.jpg",
-        "medium_image": "",
-        "default_image": "assets/img/products/small/printed-dress.jpg",
-        "description": "",
-        "product_detail": "",
-        "review": ""
-      },
-      {
-        "id": 4,
-        "name": "In sodales lobortis erat",
-        "price": 41.56,
-        "large_image": "assets/img/products/large/printed-dress.jpg",
-        "medium_image": "",
-        "default_image": "assets/img/products/small/printed-dress.jpg",
-        "description": "",
-        "product_detail": "",
-        "review": ""
-      },
-      {
-        "id": 5,
-        "name": "Vivamus interdum lectus",
-        "price": 23.62,
-        "large_image": "assets/img/products/large/printed-summer-dress.jpg",
-        "medium_image": "",
-        "default_image": "assets/img/products/small/printed-summer-dress.jpg",
-        "description": "",
-        "product_detail": "",
-        "review": ""
-      },
-      {
-        "id": 6,
-        "name": "Fusce turpis nunc",
-        "price": 26.99,
-        "large_image": "assets/img/products/large/blouse-1.jpg",
-        "medium_image": "",
-        "default_image": "assets/img/products/small/blouse-1.jpg",
-        "description": "",
-        "product_detail": "",
-        "review": ""
-      },
-      {
-        "id": 7,
-        "name": "Donec ultrices fringilla velit",
-        "price": 19.07,
-        "large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
-        "medium_image": "",
-        "default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
-        "description": "",
-        "product_detail": "",
-        "review": ""
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Vegetables"
-  },
-  {
-    "id": 6,
-    "name": "Lime - Lemon - Orange"
-  },
-  {
-    "id": 7,
-    "name": "Vegetables"
-  },
-]
+{
+	"categories": [
+		{
+			"id": 1,
+			"name": "Trái cây việt nam"
+		},
+		{
+			"id": 2,
+			"name": "Trái cây nước ngoài"
+		},
+	],
+	"products": [
+		{
+			"id": 1,
+			"name": "Thanh Long Phan Thiết",
+			"price": 31000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 1
+		},
+		{
+			"id": 2,
+			"name": "Cam Sành",
+			"price": 32000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 1
+		},
+		{
+			"id": 3,
+			"name": "Sapo Lồng Mứt",
+			"price": 41000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 1
+		},
+		{
+			"id": 4,
+			"name": "Xoài Cát Hòa Lộc",
+			"price": 69000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 1
+		},
+		{
+			"id": 5,
+			"name": "Chôm Chôm Nhãn",
+			"price": 48500,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 1
+		},
+		{
+			"id": 6,
+			"name": "Mít Thái",
+			"price": 65000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 7,
+			"name": "Ổi Đài Loan",
+			"price": 9500,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 8,
+			"name": "Xoài Thái",
+			"price": 50000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 9,
+			"name": "Cam Xoàn",
+			"price": 39000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 1
+		},
+		{
+			"id": 10,
+			"name": "Dưa Lưới Xanh Hà Lan",
+			"price": 62000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 11,
+			"name": "Dưa Hấu Đỏ Mỹ",
+			"price": 16000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 12,
+			"name": "Dưa Hoàng Kim",
+			"price": 50000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 13,
+			"name": "Chuối Philippine",
+			"price": 24000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 14,
+			"name": "Nho Xanh Không Hạt",
+			"price": 148000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 15,
+			"name": "Nho Đen Không Hạt Chile",
+			"price": 119000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 16,
+			"name": "Mận Đỏ Giống Thái",
+			"price": 32000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 17,
+			"name": "Ổi Đài Loan Ruột Đỏ",
+			"price": 18800,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 18,
+			"name": "Lê Hàn Quốc",
+			"price": 56000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 19,
+			"name": "Dâu Hàn Quốc",
+			"price": 0,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 2
+		},
+		{
+			"id": 20,
+			"name": "Bưởi Da Xanh",
+			"price": 72000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 1
+		},
+		{
+			"id": 21,
+			"name": "Bưởi Năm Roi",
+			"price": 46000,
+			"discount": 0,
+			"large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+			"medium_image": "",
+			"default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+			"description": "",
+			"product_detail": "",
+			"review": "",
+			"category_id": 1
+		},
+	]
+}
