@@ -1,4 +1,4 @@
-ap_list_functions.push(function(){
+export function GenerateSlideBanner(){
 
 	jQuery(".iview-group-5a66c158e4218-1").iView({
 		// COMMON
@@ -103,4 +103,4 @@ ap_list_functions.push(function(){
 	$(".iview-group-5a66c158e4218-1 .slide_config").on('swipe',function(){
 		link_event = 'swiped';	// do not click event
 	});
-});
+};

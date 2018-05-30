@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "name": "Spinach"
+  },
+  {
+    "id": 2,
+    "name": "Cabbage"
+  },
+  {
+    "id": 3,
+    "name": "Cauliflower"
+  },
+  {
+    "id": 4,
+    "name": "Fruits",
+    "products": [
+      {
+        "id": 1,
+        "name": "Curabitur auctor ut elit",
+        "price": 13.46,
+        "large_image": "assets/img/products/large/faded-short-sleeves-tshirt.jpg",
+        "medium_image": "",
+        "default_image": "assets/img/products/small/faded-short-sleeves-tshirt.jpg",
+        "description": "",
+        "product_detail": "",
+        "review": ""
+      },
+      {
+        "id": 2,
+        "name": "Mauris at quam ac turpis",
+        "price": 26.99,
+        "large_image": "assets/img/products/large/blouse.jpg",
+        "medium_image": "",
+        "default_image": "assets/img/products/small/blouse.jpg",
+        "description": "",
+        "product_detail": "",
+        "review": ""
+      },
+      {
+        "id": 3,
+        "name": "Sed lobortis tortor vitae",
+        "price": 21.19,
+        "large_image": "assets/img/products/large/printed-dress.jpg",
+        "medium_image": "",
+        "default_image": "assets/img/products/small/printed-dress.jpg",
+        "description": "",
+        "product_detail": "",
+        "review": ""
+      },
+      {
+        "id": 4,
+        "name": "In sodales lobortis erat",
+        "price": 41.56,
+        "large_image": "assets/img/products/large/printed-dress.jpg",
+        "medium_image": "",
+        "default_image": "assets/img/products/small/printed-dress.jpg",
+        "description": "",
+        "product_detail": "",
+        "review": ""
+      },
+      {
+        "id": 5,
+        "name": "Vivamus interdum lectus",
+        "price": 23.62,
+        "large_image": "assets/img/products/large/printed-summer-dress.jpg",
+        "medium_image": "",
+        "default_image": "assets/img/products/small/printed-summer-dress.jpg",
+        "description": "",
+        "product_detail": "",
+        "review": ""
+      },
+      {
+        "id": 6,
+        "name": "Fusce turpis nunc",
+        "price": 26.99,
+        "large_image": "assets/img/products/large/blouse-1.jpg",
+        "medium_image": "",
+        "default_image": "assets/img/products/small/blouse-1.jpg",
+        "description": "",
+        "product_detail": "",
+        "review": ""
+      },
+      {
+        "id": 7,
+        "name": "Donec ultrices fringilla velit",
+        "price": 19.07,
+        "large_image": "assets/img/products/large/printed-chiffon-dress-1.jpg",
+        "medium_image": "",
+        "default_image": "assets/img/products/small/printed-chiffon-dress-1.jpg",
+        "description": "",
+        "product_detail": "",
+        "review": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Vegetables"
+  },
+  {
+    "id": 6,
+    "name": "Lime - Lemon - Orange"
+  },
+  {
+    "id": 7,
+    "name": "Vegetables"
+  },
+]

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Vegetable Commercial</title>
-  <base href="https://rawgit.com/gojila/vegatable_commercial/master/">
+  <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -130,6 +130,12 @@
         el.find(".owl-item.active").last().addClass("last_item");
     }
 
+    function OwlLoaded(el){
+        el.removeClass('owl-loading').addClass('owl-loaded').parents('.owl-row').addClass('hide-loading');
+        if ($(el).parents('.tab-pane').length && !$(el).parents('.tab-pane').hasClass('active'))
+            el.width('100%');
+    };
+
     ap_list_functions.push(function(){
         //if (typeof $.LeoCustomAjax !== "undefined" && $.isFunction($.LeoCustomAjax)) {
         //    var leoCustomAjax = new $.LeoCustomAjax();
@@ -144,9 +150,9 @@
 
     <script type="text/javascript" src="assets/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/bottom.js"></script>
-    <script type="text/javascript" src="assets/js/generate-slide-banner.js"></script>
-    <script type="text/javascript" src="assets/js/generate-left-products.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/generate-slide-banner.js"></script> -->
+    <!-- script type="text/javascript" src="assets/js/generate-left-products.js"></script> -->
     <!-- <script type="text/javascript" src="assets/js/generate-today-deal.js"></script> -->
-    <script type="text/javascript" src="assets/js/generate-new-product.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/generate-new-product.js"></script> -->
 <script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
 </html>

@@ -1,4 +1,4 @@
-ap_list_functions.push(function(){
+export function GenerateLeftProduct(){
     if($('#carousel-2035752113').parents('.tab-pane').length)
     {
         if(!$('#carousel-2035752113').parents('.tab-pane').hasClass('active'))
@@ -40,7 +40,7 @@ ap_list_functions.push(function(){
 			afterAction : SetOwlCarouselFirstLast,
 		});
 	});
-});
+};
 function OwlLoaded(el){
     el.removeClass('owl-loading').addClass('owl-loaded').parents('.owl-row').addClass('hide-loading');
     if ($(el).parents('.tab-pane').length && !$(el).parents('.tab-pane').hasClass('active'))
